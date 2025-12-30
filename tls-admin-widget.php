@@ -32,5 +32,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die();
 }
 
-register_activation_hook(__FILE__, []);
-register_deactivation_hook(__FILE__, []);
+require_once (plugin_dir_path() . '/inc/class/class.tls.admin.manager.php');
+
+register_activation_hook(__FILE__, ['TLS_ADMIN_WIDGET', 'activation_tls_admin_widget']);
+register_deactivation_hook(__FILE__, ['TLS_ADMIN_WIDGET', 'deactivation_tls_admin_widget']);
