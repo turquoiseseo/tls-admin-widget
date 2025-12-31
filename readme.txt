@@ -1,4 +1,4 @@
-An Admin Widget that uses D3js to visualize the following data:
+An Admin Widget that uses jqPlot to visualize the following data:
 
 Utilize WordPress built-in Backbone JS Client to manage the following data:
 
