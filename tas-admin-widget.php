@@ -32,7 +32,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die();
 }
 
-require_once (plugin_dir_path(__DIR__) . 'inc/class/class.tls.admin.widget.php');
+require_once (plugin_dir_path(__DIR__) . 'inc/class/class.tas.admin.widget.php');
 
-register_activation_hook(__FILE__, ['TLS_ADMIN_WIDGET', 'activation_tls_admin_widget']);
-register_deactivation_hook(__FILE__, ['TLS_ADMIN_WIDGET', 'deactivation_tls_admin_widget']);
+register_activation_hook(__FILE__, ['TAS_ADMIN_WIDGET', 'activation_tas_admin_widget']);
+register_deactivation_hook(__FILE__, ['TAS_ADMIN_WIDGET', 'deactivation_tas_admin_widget']);
