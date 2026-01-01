@@ -5,7 +5,7 @@
  */
 /*
 Plugin Name: Admin Widget
-Description: WordPress Admin Widget With D3js
+Description: WordPress Admin Widget With Google Charts
 Author: Cuong Le
 Version: 1.0.0
 Text Domain: admin-widget
