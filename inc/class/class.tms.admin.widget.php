@@ -1,5 +1,5 @@
 <?php
-class TAS_ADMIN_WIDGET {
+class TMS_ADMIN_WIDGET {
     public function __constructor() {
         
     }
